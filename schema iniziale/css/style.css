@@ -1,0 +1,39 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*DEBUG*/
+.debug-header [class*='col-']{
+  background-color: red;
+  border: 1px solid black;
+  height: 100px;
+}
+
+.debug-main [class*='col-']{
+  background-color: green;
+  border: 1px solid black;
+  height: 150px;
+}
+.debug-footer [class*='col-']{
+  background-color: darkcyan;
+  border: 1px solid black;
+  height: 100px;
+}
+.debug-main [class*='col-'].row-title, 
+.debug-main [class*='col-'].button{
+  height: 50px;
+}
+
+/*---------------*/
+.width-90{
+  width: 80%;
+  margin: 0 auto;
+}
+.width-70{
+  width: 70%;
+  margin: 0 auto;
+}
+
