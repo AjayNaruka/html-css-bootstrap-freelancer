@@ -32,11 +32,11 @@
 .margin-t-10{
   margin-top: 10px;
 }
-ul li{
+.hidden-xs ul li{
   margin-left: 50px;
   text-transform: uppercase;
 }
-ul li:first-child{
+.hidden-xs ul li:first-child{
   margin-left: 0;
 }
 .box-stella{
@@ -57,15 +57,24 @@ ul li:first-child{
 /*---------------------*/
 .asn-header-top{
   width: 100%;
-  position: fixed;
+  /*  */
   top: 0;
   z-index: 99;
   height: 50px;
   background-color: #2C3E50;
   line-height: 50px;
 }
+.line-height{
+  line-height: 50px;
+  margin: 0;
+}
 .asn-header-bottom{
   margin-top: 50px;
+}
+.menu-left{
+  left: 0;
+  right: 0;
+  margin: 0;
 }
 .asn-jumbotron{
   width: 80%;
@@ -139,6 +148,7 @@ footer a:hover{
   height: 2px;
   left: 50%;
   width: 30%;
+  max-width: 300px;
   transform: translate(-50%);
   background-color: white;
 }
@@ -153,6 +163,7 @@ footer a:hover{
   height: 2px;
   left: 50%;
   width: 30%;
+  max-width: 300px;
   transform: translate(-50%);
   background-color: black;
 }
